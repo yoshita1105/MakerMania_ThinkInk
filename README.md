@@ -17,7 +17,7 @@
 ## 1.1 Team Name and Photo
 ThinkInk
 
-images/Team Members.jpeg
+<img width="1600" height="1131" alt="image" src="images/Team Members.jpeg" />
 
 ---
 
