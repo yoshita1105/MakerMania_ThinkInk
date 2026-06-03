@@ -15,16 +15,18 @@
 # 1. Team Identity
 
 ## 1.1 Team Name and Photo
+ThinkInk
+
 
 ---
 
 ## 1.2 Team Members
 
-| Name | Role | Skills |
+| Name | Role | Year/Branch |
 | ---- | ---- | ------ |
-|Yoshita      |      |        |
-|      |      |        |
-|      |      |        |
+|Yoshita Vishwakarma     |      |2nd Year - AURO        |
+|Tejasva Chaudhary      |      |2nd - ECS        |
+|Vishal Gupta      |      |1st - EXTC        |
 
 ---
 
