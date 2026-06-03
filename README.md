@@ -17,6 +17,7 @@
 ## 1.1 Team Name and Photo
 ThinkInk
 
+images/Team Members.jpeg
 
 ---
 
