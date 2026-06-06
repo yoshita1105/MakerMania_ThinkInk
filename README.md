@@ -29,6 +29,7 @@ ThinkInk
 |Tejasva Chaudhary      |      |2nd - ECS        |
 |Vishal Gupta      |      |1st - EXTC        |
 
+Useless product video link : https://youtu.be/rLFXh65uxHs?si=dfBaRAERnktvgRVW
 ---
 
 # 2. Problem Discovery
