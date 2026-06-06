@@ -4,6 +4,8 @@
 
 > Designed and modeled a bottle using Fusion 360
 
+> ![Yoshita Water Bottle](../images/Yoshita's%20Bottle.jpeg)
+
 > Attended a Google Meet session with Prithvi
 
 > Gained insights into the product development journey from idea to execution
