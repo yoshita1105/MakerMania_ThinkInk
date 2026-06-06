@@ -1,5 +1,4 @@
-# MAKERMANIA 2026
-
+# MAKERMANIA 2026 | ThinkInk
 ## Innovation Project Workbook
 
 > Program Duration: 1 June 2026 – 4 July 2026
