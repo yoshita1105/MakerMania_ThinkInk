@@ -28,5 +28,22 @@
 
 > Learned the basic operation and setup of a 3D printer
 
--> Explored the complete workflow from digital model to physical prototype
+> Explored the complete workflow from digital model to physical prototype
 
+## 5th June
+
+> Designed a calendar using LaserCAD.
+
+## 6th June
+
+> Worked on video creation.
+
+> Edited the video.
+
+## 8th June
+
+> Attended a session on the SCAMPER method conducted by Sir.
+
+> Learned how SCAMPER can be used to generate innovative ideas and improve existing products.
+
+> Participated in discussions related to problem statements.
