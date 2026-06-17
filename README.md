@@ -53,12 +53,7 @@ Where did you conduct your observations?
 
 What are users doing?
 
-> Running, walking, and navigating through outdoor play areas.
-> Aiming and shooting opponents using the laser gun.
-> Taking cover behind obstacles such as trees, walls, benches, and structures.
-> Tracking their health and game status through the wristband.
-> Collaborating with teammates and planning strategies.
-> Competing to eliminate opponents or complete game objectives.
+Users actively move around outdoor play areas, aiming and shooting opponents using laser guns. They take cover, strategize with teammates, and monitor their health and game status through the wristband during gameplay.
 
 ### Environment
 
@@ -68,34 +63,19 @@ What conditions affect them?
 
 Who or what are they interacting with?
 
-> Opposing players during gameplay.
-> Teammates during team-based missions.
-> Laser guns for aiming and shooting.
-> Sensor-equipped vests that register hits.
-> Wristbands providing health and score information.
-> Outdoor obstacles used for cover and strategy.
+Players interact with teammates, opponents, laser guns, sensor vests, and wristbands throughout the game. They also use surrounding obstacles strategically to hide, defend, and attack.
 
 ### Objects
 
 What tools or products are used?
 
-> Smart Laser Gun with IR transmitter and aiming laser.
-> Sensor Vest with multiple hit-detection sensors.
-> Wristband with display and vibration feedback.
-> ESP32 microcontrollers for processing and communication.
-> Rechargeable battery systems.
-> Protective eyewear for player safety.
-> 3D-printed housings and mounts for hardware components.
+The system consists of a smart laser gun, sensor-equipped vest, wristband display, ESP32 microcontrollers, batteries, and protective eyewear. These components work together to detect hits, track scores, and provide player feedback.
 
 ### Users
 
 Who are the primary users?
 
-> Teenagers and young adults who enjoy outdoor multiplayer games.
-> Students participating in technical competitions and demonstrations.
-> Schools and colleges conducting recreational or team-building activities.
-> Gaming enthusiasts looking for an outdoor alternative to video games.
-> Event organizers hosting outdoor gaming events and competitions.
+The primary users are students, teenagers, gaming enthusiasts, and participants in outdoor recreational activities. The system is designed for individuals who enjoy competitive, team-based, and physically engaging games.
 
 ---
 
