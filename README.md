@@ -59,6 +59,8 @@ Users actively move around outdoor play areas, aiming and shooting opponents usi
 
 What conditions affect them?
 
+The game can be played in both indoor and outdoor environments such as halls, playgrounds, parks, and open fields. Factors like lighting conditions, obstacles, available space, weather, and terrain can influence gameplay, player movement, and sensor performance.
+
 ### Interactions
 
 Who or what are they interacting with?
