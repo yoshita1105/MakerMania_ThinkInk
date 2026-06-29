@@ -294,6 +294,16 @@ The wristband contains a custom-designed circular sensor patch with:
 
 ## Version 1
 
+
+https://github.com/user-attachments/assets/563d130e-1305-47c8-bd2d-03f9c2435ef3
+
+
+
+https://github.com/user-attachments/assets/354fc109-a8ec-4b6e-959a-7027e6643bb9
+
+
+
+
 ### Description
 
 The first prototype consisted of an ESP32-C3 based receiver connected to a TCS34725 optical sensor and OLED display. Initial testing focused on detecting laser light under different ambient lighting conditions. Health values were displayed on the OLED, and vibration feedback was implemented for hit indication.
