@@ -152,21 +152,26 @@ User __________ needs a way to __________ because __________.
 | Total            |       |
 
 ---
-
-# 5. Solution Ideation
+## 5. Solution Ideation
 
 ## Brainstormed Ideas
 
-| Idea | Advantages | Challenges |
-| ---- | ---------- | ---------- |
-|      |            |            |
-|      |            |            |
+| Idea                                     | Advantages                                        | Challenges                                   |
+| ---------------------------------------- | ------------------------------------------------- | -------------------------------------------- |
+| IR-Based Laser Tag System                | Low cost, easy implementation                     | Sensitive to ambient IR interference         |
+| Camera-Based Hit Detection               | High accuracy                                     | Expensive and computationally intensive      |
+| RFID-Based Health & Power-Up System      | Easy player identification and game customization | Requires RFID integration                    |
+| Visible Laser + Optical Sensor Detection | Realistic gameplay, visible shooting effects      | Requires accurate filtering of ambient light |
 
 ---
 
 ## Selected Concept
 
-Why was this concept chosen?
+**Visible Laser-Based Smart Laser Tag System with RFID Integration**
+
+### Why was this concept chosen?
+
+The selected concept provides an immersive laser tag experience while remaining affordable and easy to manufacture. The system combines visible laser hit detection using optical sensors with RFID-based player identification and power-up functionality. It offers real-time health tracking, wireless communication, visual feedback, and long battery life, making it suitable for both recreational and educational applications.
 
 ---
 
@@ -174,25 +179,65 @@ Why was this concept chosen?
 
 ## High-Level Description
 
-Explain your solution.
+The project consists of two main units:
+
+1. **Laser Gun (Transmitter Unit)**
+
+   * Fires a visible laser beam when the trigger is pressed.
+   * Sends shooting data wirelessly using ESP-NOW communication.
+
+2. **Player Wristband (Receiver Unit)**
+
+   * Detects laser hits using optical sensors.
+   * Identifies players using RFID cards/tags.
+   * Tracks health points.
+   * Displays health status on an OLED screen.
+   * Activates vibration feedback when hit.
+   * Communicates game data wirelessly.
+
+When a player is hit, the wristband decreases health points and provides visual and vibration feedback. RFID cards can be used for player registration, health boosts, or special game modes.
 
 ---
 
 ## Block Diagram
 
-Insert diagram here.
+Laser Trigger → ESP32 Transmitter → Laser Module
+
+↓
+
+Visible Laser Beam
+
+↓
+
+Optical Sensor (TCS34725) → ESP32 Receiver → Health Processing
+
+↓
+
+OLED Display + Vibration Motor + ESP-NOW Communication
+
+↓
+
+RFID Reader → Player Identification / Power-Ups
 
 ---
 
 ## Inputs
 
-List sensors, user inputs, data sources.
+* Trigger Button
+* TCS34725 Color Sensor (Laser Detection)
+* RFID Reader
+* RFID Tags/Cards
+* Battery Status Data
 
 ---
 
 ## Outputs
 
-List displays, actuators, software outputs.
+* OLED Display (Health Points, Status)
+* Vibration Motor (Hit Feedback)
+* LED Indicators
+* Wireless ESP-NOW Data Transmission
+* Game Statistics
 
 ---
 
@@ -200,25 +245,48 @@ List displays, actuators, software outputs.
 
 ## Electronics
 
-| Component | Purpose |
-| --------- | ------- |
-|           |         |
-|           |         |
+| Component                     | Purpose                         |
+| ----------------------------- | ------------------------------- |
+| ESP32-C3 Super Mini           | Main controller                 |
+| TCS34725 Sensor               | Laser hit detection             |
+| RFID Reader Module            | Player identification           |
+| RFID Tags/Cards               | Player ID and power-ups         |
+| OLED Display (128x64)         | Health and status display       |
+| Coin Vibration Motor          | Hit feedback                    |
+| Laser Module                  | Shooting mechanism              |
+| Li-Po Battery (1200–1500 mAh) | Portable power source           |
+| TP4056 Charging Module        | Battery charging and protection |
+| LEDs                          | Visual indicators               |
+| Push Buttons                  | Trigger and controls            |
 
 ---
 
 ## Software
 
-| Tool | Purpose |
-| ---- | ------- |
-|      |         |
-|      |         |
+| Tool                     | Purpose                |
+| ------------------------ | ---------------------- |
+| Arduino IDE              | Firmware development   |
+| ESP-NOW Protocol         | Wireless communication |
+| Adafruit GFX Library     | OLED graphics          |
+| Adafruit SSD1306 Library | OLED display control   |
+| RFID Library             | RFID communication     |
+| EasyEDA/Fritzing         | Circuit design         |
+| Fusion 360               | 3D CAD modeling        |
 
 ---
 
 ## Mechanical / CAD
 
-Describe fabricated components.
+The wristband contains a custom-designed circular sensor patch with:
+
+* Outer Diameter: 60 mm
+* Inner Diameter: 50 mm
+* TCS34725 sensor mounted at the center
+* Translucent diffusion film for improved laser detection
+* Integrated LED ring around the perimeter
+* Internal supports for sensor mounting
+* Cable routing channels for electronics connections
+* Lightweight wearable enclosure designed using CAD and 3D printing
 
 ---
 
@@ -226,9 +294,18 @@ Describe fabricated components.
 
 ## Version 1
 
-Description:
+### Description
 
-Lessons Learned:
+The first prototype consisted of an ESP32-C3 based receiver connected to a TCS34725 optical sensor and OLED display. Initial testing focused on detecting laser light under different ambient lighting conditions. Health values were displayed on the OLED, and vibration feedback was implemented for hit indication.
+
+### Lessons Learned
+
+* Ambient light significantly affects sensor readings.
+* A translucent diffusion film improves laser detection reliability.
+* OLED display provides effective real-time feedback.
+* ESP-NOW communication enables low-latency wireless gameplay.
+* Proper sensor shielding improves detection accuracy.
+* Battery-powered operation requires efficient power management for extended gameplay duration.
 
 ---
 
