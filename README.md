@@ -302,9 +302,6 @@ https://github.com/user-attachments/assets/563d130e-1305-47c8-bd2d-03f9c2435ef3
 https://github.com/user-attachments/assets/354fc109-a8ec-4b6e-959a-7027e6643bb9
 
 
-<video src="videos/Video1.mp4" controls width="700"></video>
-
-
 
 
 ### Description
