@@ -370,7 +370,7 @@ Our laser tag system introduces several features that are uncommon in existing p
 
 * Modular wearable patches instead of a single chest sensor, allowing multiple hit zones for more realistic gameplay.
 * Smart wristband with OLED display that shows real-time health, deaths, and game information.
-* QR code-based health regeneration, where players scan medical kits to regain health instead of automatically respawning.
+* RFID-based health regeneration, where players scan medical kits to regain health instead of automatically respawning.
 * ESP32-based wireless communication, enabling low-cost multiplayer gameplay and easy expansion.
 * Laser detection using the TCS34725 color sensor, designed to distinguish laser hits from ambient light, improving outdoor performance.
 * Expandable architecture, allowing more players to join by simply adding additional sensor patches and wristbands.
@@ -398,15 +398,25 @@ Our laser tag system introduces several features that are uncommon in existing p
 
 Patents / Products Found:
 
+* Commercial laser tag systems such as Laser X, Nerf Laser Ops Pro, and professional arena laser tag equipment.
+* Existing patents related to:
+  * Laser tag guns and target detection systems.
+  * Infrared/laser hit detection devices.
+  * Wearable gaming systems with health tracking.
+  * Wireless multiplayer gaming systems.
+
 ---
 
 ## Novel Features
 
-1.
+1. RFID-Based Health Regeneration
+* Players restore health by tapping their wristband on designated RFID-enabled medical stations, introducing a strategic gameplay element beyond traditional respawning.
 
-2.
+2. Smart Wristband with Real-Time Player Status
+* A wearable wristband with an OLED display that shows live health, kills, deaths, and game status, providing immediate feedback without requiring an external scoreboard or mobile application.
 
-3.
+3. Multi-Zone Wearable Sensor Patch System
+* Multiple sensor patches placed on different parts of the player's body enable accurate hit detection from various angles, making gameplay more immersive and realistic than single-target systems.
 
 ---
 
@@ -416,11 +426,24 @@ Patents / Products Found:
 
 ### Abstract
 
+The invention relates to a portable laser tag gaming system comprising wearable sensor patches, laser-based weapon units, a smart wristband, RFID technology, and wireless communication modules. The system detects laser hits using optical sensors, updates player health in real time on a wrist-mounted display, and enables health restoration through RFID-enabled medical stations. The modular architecture supports multiplayer gameplay, outdoor operation, and future software expansion while maintaining a cost-effective hardware implementation.
+
 ### Problem
+
+Existing laser tag systems are often expensive, confined to dedicated arenas, and limited to basic hit detection and score tracking. Most do not provide interactive health restoration, modular wearable sensor systems, or portable multiplayer setups suitable for outdoor environments.
 
 ### Solution
 
+The proposed system integrates wearable sensor patches, an ESP32-based control system, laser hit detection using TCS34725 optical sensors, a smart wristband with an OLED display, and RFID-based health regeneration. Players restore health by tapping their wristband on RFID-enabled medical stations. The system is modular, scalable, portable, and cost-effective.
+
 ### Claims
+
+* A modular laser tag gaming system comprising wearable sensor patches, laser transmitters, and a wrist-mounted smart display.
+* A laser hit detection mechanism utilizing optical color sensors for reliable detection under varying ambient lighting conditions.
+* A smart wristband configured to display real-time player health and game statistics.
+* An RFID-based health regeneration system, wherein a player restores health by interacting with an RFID-enabled medical station.
+* An ESP32-based wireless multiplayer communication system for real-time synchronization of player data.
+* A scalable modular architecture supporting additional players, wearable sensor patches, and future gameplay modes without significant hardware changes.
 
 ---
 
