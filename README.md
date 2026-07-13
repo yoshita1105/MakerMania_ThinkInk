@@ -368,15 +368,15 @@ List competing products.
 
 Our laser tag system introduces several features that are uncommon in existing products:
 
-Modular wearable patches instead of a single chest sensor, allowing multiple hit zones for more realistic gameplay.
-Smart wristband with OLED display that shows real-time health, deaths, and game information.
-QR code-based health regeneration, where players scan medical kits to regain health instead of automatically respawning.
-ESP32-based wireless communication, enabling low-cost multiplayer gameplay and easy expansion.
-Laser detection using the TCS34725 color sensor, designed to distinguish laser hits from ambient light, improving outdoor performance.
-Expandable architecture, allowing more players to join by simply adding additional sensor patches and wristbands.
-Portable setup that does not require a dedicated laser tag arena, making it suitable for schools, colleges, events, and open grounds.
-Cost-effective hardware, using readily available components to reduce overall system cost compared to commercial laser tag equipment.
-Upgradeable software, making it possible to add features such as team modes, scoreboards, player statistics, timed matches, and mobile app integration in the future.
+* Modular wearable patches instead of a single chest sensor, allowing multiple hit zones for more realistic gameplay.
+* Smart wristband with OLED display that shows real-time health, deaths, and game information.
+* QR code-based health regeneration, where players scan medical kits to regain health instead of automatically respawning.
+* ESP32-based wireless communication, enabling low-cost multiplayer gameplay and easy expansion.
+* Laser detection using the TCS34725 color sensor, designed to distinguish laser hits from ambient light, improving outdoor performance.
+* Expandable architecture, allowing more players to join by simply adding additional sensor patches and wristbands.
+* Portable setup that does not require a dedicated laser tag arena, making it suitable for schools, colleges, events, and open grounds.
+* Cost-effective hardware, using readily available components to reduce overall system cost compared to commercial laser tag equipment.
+* Upgradeable software, making it possible to add features such as team modes, scoreboards, player statistics, timed matches, and mobile app integration in the future.
 
 ---
 
