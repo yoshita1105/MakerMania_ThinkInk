@@ -384,11 +384,11 @@ Our laser tag system introduces several features that are uncommon in existing p
 
 | Parameter       | Score |
 | --------------- | ----- |
-| Novelty         |       |
-| Technical Depth |       |
-| Feasibility     |       |
-| Impact          |       |
-| Scalability     |       |
+| Novelty         |   8   |
+| Technical Depth |   9    |
+| Feasibility     |   8    |
+| Impact          |   8    |
+| Scalability     |   9    |
 
 ---
 
